@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background-color: bisque;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: black;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav a{
+    color:whitesmoke;
+    text-decoration:none;
+    margin:20px;
+}
+
+nav a:hover{
+    color:yellow;
+}
